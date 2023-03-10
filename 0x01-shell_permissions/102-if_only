@@ -1,0 +1,2 @@
+#!/bin/bash
+[ $(stats -c %U hello) = guillaume ] && chown betty hello
