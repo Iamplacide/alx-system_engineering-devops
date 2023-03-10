@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ $(stats -c '%U' hello) = guillaume ]; then chown betty hello; fi
+[ $(whoami) == "guillaume" ] then chown betty hello
