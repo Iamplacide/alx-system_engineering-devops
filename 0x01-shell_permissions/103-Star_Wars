@@ -1,2 +1,2 @@
 #!/bin/bash
-mmpv https://onlinelink.watch
+telnet towel.blinkenlights.nl
