@@ -1,1 +1,2 @@
-Hello World!
+#!/bin/bash
+rm -f $(grep -r1 '\.js$' ./*)
