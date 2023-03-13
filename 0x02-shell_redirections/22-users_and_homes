@@ -1,1 +1,2 @@
-Hello World!
+#!/bin/bash
+cut -d: -f1,6 /etc/paswd
