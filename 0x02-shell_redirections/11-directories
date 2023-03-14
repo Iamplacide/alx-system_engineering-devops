@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 1 -maxdepth -type d -printf '.' -o type d -printf './n' | wc -1
+find . -type d ! -path . | wc -l
